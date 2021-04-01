@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "giftr",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "version": "0.1",
+    "description": "A tool for saving gift ideas",
+    "icons": {
+        "128": "icon128.png",
+        "64": "icon64.png",
+        "16":"icon16.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+      ],
+      "background": {
+        "service_worker": "background.js"
+      }
+
+}

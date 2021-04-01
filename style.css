@@ -1,0 +1,7 @@
+[data-focus="true"] {
+    outline: 1px dashed hsl(267, 100%, 58%);
+  }
+
+  div {
+      width:300px;
+  }
